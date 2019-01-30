@@ -1,5 +1,0 @@
-from ubuntu
-
-RUN apt-get update -y && apt-get install -y vnc4server
-
-EXPOSE 5901
