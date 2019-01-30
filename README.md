@@ -1,8 +1,6 @@
-# Squid Image automated build
+# Jenkins Image automated build
 
-Please use your own squid.conf
-/etc/squid/squid.conf
 
 # to run the image
 
- $ docker run -p 3128:3128 -d minepicco/squid-autobuild
+ $ docker run -p 8080:8080 -d minepicco/jenkins-autobuild
